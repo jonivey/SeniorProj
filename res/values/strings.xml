@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="info">Created by Jonathan Ivey</string>
+    <string name="graphics_source">Graphics created by Vicki Wenderlich: http://www.vickiwenderlich.com/2012/03/free-game-art-tank-wars/</string>
+    
+    <string name="app_name">Senior Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="username_message">Username</string>
+    <string name="password_message">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_create_account">Create Account</string>
+    <string name="button_about">About</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="confirm_password_message">Confirm Password</string>
+    <string name="button_create">Create</string>
+    <string name="title_activity_create_account">Create an Account</string>
+    <string name="title_activity_login">Logged In</string>
+    <string name="button_challenge_opponent">Challenge an Opponent</string>
+    <string name="button_view_challenges">View Challenges</string>
+    <string name="button_view_battle">View my Battle</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="opponent_message">Opponent\'s name</string>
+    <string name="button_request_battle">Request a Battle</string>
+    <string name="title_activity_challenge">Challenge an Opponent</string>
+    <string name="button_units">Units</string>
+    <string name="button_buildings">Buildings</string>
+    <string name="button_gameplay">Gameplay</string>
+    <string name="button_levels">Levels</string>
+    <string name="button_info">Information</string>
+    <string name="button_view_levels">View Levels</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_units_info">Units</string>
+    <string name="title_activity_buildings_info">Buildings</string>
+    <string name="title_activity_gameplay_info">Gameplay</string>
+    <string name="title_activity_levels_info">Levels</string>
+    <string name="title_activity_info">Information</string>
+    <string name="button_accept_challenge">Accept</string>
+    <string name="button_decline_challenge">Decline</string>
+    <string name="title_activity_view_challenge">Current Challenge</string>
+    <string name="plus_sign">+</string>
+    <string name="title_activity_view_levels">Levels</string>
+    <string name="strength_text">Strength</string>
+    <string name="mobility_text">Mobility</string>
+    <string name="vitality_text">Vitality</string>
+    <string name="experience_text">Experience:</string>
+    <string name="experience_per_level_text">Experience Per Level:</string>
+    <string name="title_activity_view_battle">My Battle</string>
+    <string name="button_submit_changes">Submit Changes</string>
+    
+    <string name="end_turn">End Turn</string>
+    <string name="resign">Resign</string>
+    
+    <string name="info_soldier">Soldier:\nType:\tLand\nBase Health: 100\nBase Damage: 50\nBase Movement Range: 7\nBase Attack Range: 5</string>
+    <string name="info_tank">Tank:\nType:\tLand\nBase Health: 150\nBase Damage: 75\nBase Movement Range: 5\nBase Attack Range: 5</string>
+    <string name="info_helicopter">Helicopter:\nType:\tAir\nBase Health: 130\nBase Damage: 70\nBase Movement Range: 7\nBase Attack Range: 7</string>
+    <string name="info_jet">Jet:\nType:\tAir\nBase Health: 110\nBase Damage: 60\nBase Movement Range: 9\nBase Attack Range: 7</string>
+    <string name="info_cruiser">Cruiser:\nType:\tWater\nBase Health: 125\nBase Damage: 70\nBase Movement Range: 5\nBase Attack Range: 14</string>
+    <string name="info_battleship">Battleship:\nType:\tWater\nBase Health: 160\nBase Damage: 90\nBase Movement Range: 6\nBase Attack Range: 17</string>
+    
+    <string name="name_capital">Capital</string>
+    <string name="name_factory">Factory</string>
+    <string name="name_port">Port</string>
+    <string name="name_airport">Airport</string>
+    <string name="info_capital">The most important building.  If your opponent captures your Capital, then you lose.</string>
+    <string name="info_factory">Allows you to build land units.</string>
+    <string name="info_port">Allows you to build water units.</string>
+    <string name="info_airport">Allows you to build air units.</string>
+    
+    <string name="info_units">Soldier:\nType:\tLand\nTank:\nType:\tLand\nHelicopter:\nType:\tAir\nJet:\nType:\tAir\nCruiser:\nType:\tWater\nBattleship:\nType:\tWater</string>
+	<string name="info_buildings">There are four types of buildings:  Capitals, Factories, Ports, and Airports\n\nThe Capital is the most important building, because if your opponent captures your Capital, then you will lose the game.\nFactories allow you to build land units.\nPorts allow you to build water units.\nAirports allow you to build air units.</string>
+	<string name="info_gameplay">The objective of the game is to capture your opponent\'s Capital.\n\nPlayers take turns moving their units, attacking enemy units, capturing buildings, and building new units.\n\nUnit information is located in each of the four corners of a cell containing a unit.  The top-left corner contains the unit\'s movement range.  The top-right corner contains the unit\'s attack range.  The bottom-left corner contains the unit\'s attack power.  The bottom-right corner contains the unit\'s current health.\n\nPressing a cell selects that cell.  You can move your units by selecting a cell containing one of your units and then pressing an empty cell within the unit\'s movement range.  You can attack enemy units by selecting a cell containing one of your units and then pressing a cell containing an enemy unit within your unit\'s attack range.  You can capture a building if one of your units occupies the same cell as the building by double tapping the cell.  You can end your turn using the action bar.</string>
+	<string name="info_levels">There are three types of levels that you can level up: Strength, Vitality, and Mobility.  \n\nStrength increases the amount of damage your units do.  Each Strength level increases the damage of your units by 5.  \n\nVitality increases the health of your units.  Each Vitality level increases the health of your units by 5.\n\nMobility increases the maximum movement range of your units.  Every 5 levels in Mobility increases the maximum movement range of your units by 1 square.</string>
+</resources>

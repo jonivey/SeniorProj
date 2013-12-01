@@ -1,0 +1,94 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:rowCount="6"
+    android:columnCount="6"
+    tools:context=".ViewLevelsActivity" 
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/strength_label"
+        android:text="@string/strength_text"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TextView android:id="@+id/strength_level"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<Button android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/plus_sign" 
+		android:textSize="20sp"
+	    android:onClick="incrementStrength" />
+	
+	<TextView android:id="@+id/experience_label"
+	    android:text="@string/experience_text"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/experience_per_level_label"
+	    android:text="@string/experience_per_level_text"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<Button android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button_submit_changes" 
+		android:textSize="20sp"
+	    android:layout_columnSpan="3"
+	    android:onClick="submitChanges" />
+	
+	<TextView android:id="@+id/mobility_label"
+	    android:text="@string/mobility_text"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/mobility_level"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<Button android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/plus_sign" 
+		android:textSize="20sp"
+	    android:onClick="incrementMobility" />
+	
+	<TextView android:id="@+id/experience_count"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/experience_per_level_count"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/vitality_label"
+	    android:text="@string/vitality_text"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/vitality_level"
+		android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<Button android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/plus_sign" 
+		android:textSize="20sp"
+	    android:onClick="incrementVitality" />
+	
+</GridLayout>

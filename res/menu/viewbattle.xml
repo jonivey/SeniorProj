@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/end_turn"
+        android:showAsAction="never"
+        android:title="@string/end_turn"/>
+    
+    <item
+        android:id="@+id/resign"
+        android:showAsAction="never"
+        android:title="@string/resign"/>
+
+</menu>
